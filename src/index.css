@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oil-black: #0f0f10;
+  --color-void-gray: #151618;
+  --color-pure-white: #f7f7f7;
+  --font-heading: "Marcellus", serif;
+  --font-body: "Crimson Pro", serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-oil-black text-pure-white font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+}
