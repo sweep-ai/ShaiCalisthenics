@@ -10,7 +10,7 @@ import {
 import { usePageTitle } from '../hooks/useSessionLead'
 
 export function OnboardingPage() {
-  usePageTitle('Client Onboarding — Vaink Athletics')
+  usePageTitle('Client Onboarding — VAINK ATHLETE')
   const [completed, setCompleted] = useState<Record<string, boolean>>({})
 
   useEffect(() => {

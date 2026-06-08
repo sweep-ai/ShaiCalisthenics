@@ -1,15 +1,16 @@
 import { Header } from '../components/Header'
+import { TestimonialBanner } from '../components/TestimonialBanner'
 import { VideoPlaceholder } from '../components/VideoPlaceholder'
 import { callPrepItems, faqItems, postBookingVideoUrl } from '../data/postBooking'
 import { usePageTitle, useSessionLead } from '../hooks/useSessionLead'
 
 export function PostBookingPage() {
-  usePageTitle("What's Next — Vaink Athletics")
+  usePageTitle("What's Next — VAINK ATHLETE")
   const lead = useSessionLead()
   const firstName = lead?.name.split(' ')[0]
 
   return (
-    <div className="min-h-screen bg-oil-black">
+    <div className="min-h-screen overflow-x-hidden bg-oil-black">
       <Header />
       <main className="mx-auto max-w-2xl px-4 py-10 sm:px-6">
         <div className="text-center">
@@ -42,6 +43,8 @@ export function PostBookingPage() {
             ))}
           </ul>
         </section>
+
+        <TestimonialBanner />
 
         <section className="mt-10">
           <h2 className="font-heading text-xl text-pure-white">Common questions before the call</h2>

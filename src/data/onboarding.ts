@@ -17,6 +17,13 @@ export const onboardingItems: OnboardingItem[] = [
     buttonLabel: 'Open form',
   },
   {
+    id: 'onboarding-call',
+    title: 'Onboarding Call',
+    description: 'Book a call so we can walk through your program, answer questions, and get you set up.',
+    href: 'https://cal.com/shystillsleepy/your-onboarding-call',
+    buttonLabel: 'Book your onboarding call',
+  },
+  {
     id: 'agreement',
     title: 'Sign the client agreement',
     description: 'Review and sign before we start working together.',
@@ -32,7 +39,7 @@ export const onboardingItems: OnboardingItem[] = [
   },
 ]
 
-export const ONBOARDING_STORAGE_KEY = 'vaink-onboarding-completed'
+export const ONBOARDING_STORAGE_KEY = 'vaink-athlete-onboarding-completed'
 
 export function getOnboardingCompleted(): Record<string, boolean> {
   const raw = localStorage.getItem(ONBOARDING_STORAGE_KEY)

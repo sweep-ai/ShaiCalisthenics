@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button } from './Button'
 
 const shareMessage =
-  "I've been working with Vaink Athletics — thought you might want in too. Book a discovery call here:"
+  "I've been working with VAINK ATHLETE — thought you might want in too. Book a discovery call here:"
 
 export function ReferralButton() {
   const [copied, setCopied] = useState(false)

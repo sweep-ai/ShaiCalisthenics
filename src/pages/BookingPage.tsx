@@ -3,7 +3,7 @@ import { Header } from '../components/Header'
 import { usePageTitle } from '../hooks/useSessionLead'
 
 export function BookingPage() {
-  usePageTitle('Book Your Call — Vaink Athletics')
+  usePageTitle('Book Your Call — VAINK ATHLETE')
 
   return (
     <div className="min-h-screen bg-oil-black">

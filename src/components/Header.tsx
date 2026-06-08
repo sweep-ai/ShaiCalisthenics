@@ -4,11 +4,11 @@ export function Header() {
       <div className="mx-auto flex max-w-2xl flex-col items-center gap-3 text-center">
         <img
           src="/logo.png"
-          alt="Vaink Athletics"
+          alt="VAINK ATHLETE"
           className="h-14 w-14 object-contain sm:h-16 sm:w-16"
         />
         <span className="font-heading text-xl tracking-wide text-pure-white sm:text-2xl">
-          Vaink Athletics
+          VAINK ATHLETE
         </span>
       </div>
     </header>

@@ -1,13 +1,14 @@
 import { Header } from '../components/Header'
+import { TestimonialGallery } from '../components/TestimonialGallery'
 import { TypeformEmbed } from '../components/TypeformEmbed'
 import { VideoPlaceholder } from '../components/VideoPlaceholder'
 import { usePageTitle } from '../hooks/useSessionLead'
 
 export function HomePage() {
-  usePageTitle('Vaink Athletics — Start Here')
+  usePageTitle('VAINK ATHLETE — Start Here')
 
   return (
-    <div className="min-h-screen bg-oil-black">
+    <div className="min-h-screen overflow-x-hidden bg-oil-black">
       <Header />
       <main className="mx-auto max-w-2xl px-4 py-10 sm:px-6">
         <div className="text-center">
@@ -16,7 +17,7 @@ export function HomePage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-pure-white/70 sm:text-xl">
             Most people train without a plan, hit a wall, and convince themselves they're not built
-            for it. That's not you... or else you wouldn't be here. Vaink Athletics is for those who
+            for it. That's not you... or else you wouldn't be here. VAINK ATHLETE is for those who
             are ready to take their training to the next level. 
           </p>
         </div>
@@ -28,6 +29,8 @@ export function HomePage() {
         <div className="mt-10 flex justify-center">
           <TypeformEmbed />
         </div>
+
+        <TestimonialGallery />
       </main>
     </div>
   )

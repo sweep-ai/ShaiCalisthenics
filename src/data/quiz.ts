@@ -58,7 +58,7 @@ export interface LeadData {
   answers: Record<string, string>
 }
 
-export const LEAD_STORAGE_KEY = 'vaink-lead'
+export const LEAD_STORAGE_KEY = 'vaink-athlete-lead'
 
 export function saveLead(data: LeadData): void {
   sessionStorage.setItem(LEAD_STORAGE_KEY, JSON.stringify(data))

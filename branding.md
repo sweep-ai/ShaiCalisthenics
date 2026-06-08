@@ -13,6 +13,6 @@ Goth, and alternative
 
 Fonts: Crimson Pro + Marcellus
 
-Brand Voice: Direct, “brevity,” feels genuine as though they are speaking to their coach at Vaink Athletics. Impossible to confuse for ai. The viewer should feel motivated, confronted, but also comforted– ready to make a life changing decision and become a version of themselves they didn’t think to be possible.
+Brand Voice: Direct, “brevity,” feels genuine as though they are speaking to their coach at VAINK ATHLETE. Impossible to confuse for ai. The viewer should feel motivated, confronted, but also comforted– ready to make a life changing decision and become a version of themselves they didn’t think to be possible.
 
 
